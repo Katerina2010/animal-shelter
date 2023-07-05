@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="apple-mobile-web-app-capacity" content="yes">
+    <link rel="stylesheet" href="pets.css">
+    <link rel="stylesheet" href="media_pets.css">
+    <link rel="icon" href="../../assets/icons/favicon.ico" type="image/x-icon">
+    <title>Our pets</title>
+</head>
+<body>
+    <div class="popup">
+        <div class="popup-content">
+            <div class="popup-close"><img src="../../assets/icons/vector.svg" alt="close"></div>
+            <div class="popup-window">
+                <div class="popup-img"><img id="popup-img" src="../../assets/image/pets-jennifer.png" alt="jennifer"></div>
+                <div class="popup-text">
+                    <h3 id="title">Jennifer</h3>
+                    <h4 id="subtitle">Dog - Labrador</h4>
+                    <p id="text">Jennifer is a sweet 2 months old Labrador that is patiently waiting to find a new forever home. This girl really enjoys being able to go outside to run and play, but won't hesitate to play up a storm in the house if she has all of her favorite toys.</p>
+                    <ul>
+                        <li id="age"><span><b>Age:</b> 2 months</span></li>
+                        <li id="inoculations"><span><b>Inoculations:</b> none</span></li>
+                        <li id="diseases"><span><b>Diseases:</b> none</span></li>
+                        <li id="parasites"><span><b>Parasites:</b> none</span></li>
+                    </ul>
+                 </div>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper">
+        <header class="header">
+            <div class="conteiner">
+                <div class="header-row">
+                    <div class="logo">
+                        <a href="../main/main.html">
+                            <h2 class="logo-title">Cozy House</h2>
+                            <p class="logo-subtitle">Shelter for pets in Boston</p>
+                        </a>
+                    </div>
+                    <div class="paper"></div>
+                    <div class="burger" id="burger">
+                        <span></span>
+                    </div>
+                    <nav class="menu">
+                        <ul class="menu-list">
+                            <li class="menu-item"><a href="../main/main.html" >About the shelter</a></li>
+                            <li class="menu-item active"><a href="#">Our pets</a></li>
+                            <li class="menu-item"><a href="../main/main.html#help">Help the shelter</a></li>
+                            <li class="menu-item"><a href="#contact">Contacts</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main class="content">
+            <section class="our-friends" id="Our_Friends">
+                
+                <div class="conteiner">
+                    <div class="our-friends-row">
+                        <div class="our-friends-title">
+                                <h1>Our friends who<br>are looking for a house</h1>
+                            </div>
+                            <div class="our-friends-slider" id="slide">
+                            </div>
+                            <ul class="btn-list">
+                                <li><button name="button" class="btn-left disabled" id="left-scroll">&lt;&lt; </button></li>
+                                <li><button name="button" class="btn-left disabled" id="left">&lt;</button></li>
+                                <li><button name="button" class="btn-center" id="num">1</button></li>
+                                <li><button name="button" class="btn-right"id="right">&gt; </button></li>
+                                <li><button name="button" class="btn-right" id="right-scroll">&gt;&gt;</button></li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+            </main>
+            <footer class="footer" id="contact">
+                <div class="conteiner">
+                    <div class="footer-row">
+                        <div class="footer-contacts">
+                            <h3 class="contacts-title">For questions and suggestions</h3>
+                            <div class="contacts-mailbox">
+                                <img class="iconmail" src="../../assets//icons/mail.svg" alt="mail">
+                                <p class="textmail"><a href="mailto:email@shelter.com" target="blank">email@shelter.com</a></p>
+                            </div>
+                            <div class="contacts-telbox">
+                                <img class="icontel" src="../../assets//icons/phone.svg" alt="phone">
+                                <p class="texttel"><a href="tel:+136745677554">+13 674 567 75 54</a></p>
+                            </div>
+                        </div>
+                        <div class="footer-location">
+                            <h3 class="location-title">We are waiting for your visit</h3>
+                            <div class="location-mapbox1">
+                                <img class="iconmap" src="../../assets//icons/map.svg" alt="map">
+                                <p class="textmap"><a href="https://goo.gl/maps/oYt1SBqYGV962Pfk8" target="blank">1 Central Street, Boston (entrance from the store)</a></p>
+                            </div>
+                            <div class="location-mapbox2">
+                                <img class="iconmap" src="../../assets//icons/map.svg" alt="map">
+                                <p class="textmap"><a href="https://goo.gl/maps/mUsBfxwqrdsZqbHH9" target="blank">18 South Park, London</a></p>
+                            </div>
+                        </div>
+                        <div class="footer-img">
+                            <img src="../../assets//image/footer-puppy.png" alt="puppy">
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <script src="pets.js"></script>
+    </body>
+</html>
